@@ -32,6 +32,8 @@ or
 http://13.60.49.40:8080/swagger-ui/index.html
 
 For Testing
+
+
 http://13.60.49.40:8080/student/getall
 
 
