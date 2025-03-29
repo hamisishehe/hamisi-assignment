@@ -23,3 +23,16 @@ mvn spring-boot:run
 http://localhost:8080/swagger-ui.html
 
 
+Online Demo  For swagger UI
+
+http://ec2-13-60-49-40.eu-north-1.compute.amazonaws.com:8080/swagger-ui/index.html
+
+or
+
+http://13.60.49.40:8080/swagger-ui/index.html
+
+For Testing
+http://13.60.49.40:8080/student/getall
+
+
+
