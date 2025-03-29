@@ -1,6 +1,7 @@
 package com.example.hamisiassignment.Models;
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -20,6 +21,7 @@ public class Subject {
 
     @ManyToOne
     @JoinColumn(name = "student_id")
+    @JsonBackReference
     private Student student;
 
 

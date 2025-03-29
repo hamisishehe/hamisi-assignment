@@ -4,11 +4,13 @@ package com.example.hamisiassignment.Controller;
 import com.example.hamisiassignment.Models.Subject;
 import com.example.hamisiassignment.Service.StudentServices;
 import com.example.hamisiassignment.Service.SubjectServices;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
+@Tag(name = "Students Management", description = "APIs for managing Students")
 public class SubjectController {
 
     @Autowired
