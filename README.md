@@ -28,7 +28,7 @@ http://ec2-3-148-246-50.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.ht
 
 or
 
-http://3.148.246.50/:8080/swagger-ui/index.html
+http://3.148.246.50:8080/swagger-ui/index.html
 
 For Testing
 
